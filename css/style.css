@@ -6,6 +6,8 @@
 body {
 	background: url(../img/bg1px.png) #FFF;
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	
 } 
 
 #main {
@@ -44,21 +46,44 @@ body {
 .countries {
 
 	list-style: none;
-	border: 2px solid green;
+	/*border: 2px solid green;*/
 	position: absolute;
-	bottom: 0;
+	bottom: 9px;
 	right: 34px;
 	text-align: center;
 	font-size: 12px;
+	font-weight: 600;
+	
 }
 
 .countries li a{
 	display: block;
+	color: #128aa7;
 }
 .countries li {
-
-	/*float: left;*/
+	padding: 0 8px;
 	display: inline-block;
+}
+
+.blueline {
+	height: 1px;
+	background-color: #128aa7;
+}
+.grayline {
+	height: 1px;
+	background-color: #cacbcb;
+}
+.foto {
+	background: url(../img/photo.png) no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	height: 235px;
+	width: 100%;
+}
+nav {
+	height: 30px;
+	color: #303030;
 }
 
 footer {
