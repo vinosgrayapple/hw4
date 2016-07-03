@@ -211,13 +211,17 @@ nav ul:last-child {
 
 
 }
+.container h2 {
+	margin-bottom: 10px;
+	
+}
 .left-side {
 	display: table-cell;
 	text-align: center;
 	width: 210px;
 	background-color: #edeef0;
 	padding: 10px;
-	padding-top: 70px;
+	padding-top: 60px;
 	padding-bottom: 20000px;
 	margin-bottom: -20000px;
 }
